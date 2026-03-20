@@ -8,10 +8,14 @@
     "dark": "#c93b3e"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "ドキュメント",
+        "tab": "Docs",
         "groups": [
           {
             "group": "Getting Started",
@@ -57,7 +61,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "BOOTHで購入",
+      "label": "BOOTH",
       "href": "https://810ppp.booth.pm/items/7852224"
     }
   },
