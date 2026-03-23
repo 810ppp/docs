@@ -1,0 +1,24 @@
+---
+title: フィルタ優先度
+description: 複数の条件に一致したときに、Seiton がどのフォルダへ振り分けるかを説明します。
+---
+
+# フィルタ優先度
+
+同じアイテムが複数フォルダに一致する場合、Seiton は次の優先順位で振り分けます。
+
+1. より深い階層のフォルダ（子 > 親）
+2. 同階層では、名前系 > 拡張子 > 種別（音声 / 動画 / 画像など）
+
+<Example>
+  `01_Image`（画像フィルター）と `PSD`（拡張子 `.psd` フィルター）がある場合、PSD ファイルは `PSD` フォルダに振り分けられます。
+</Example>
+
+## 関連ページ
+
+- [使い方](/seiton/getting-started/usage)
+- [設定](/seiton/reference/settings)
+## 購入
+
+- [BOOTH](https://810ppp.booth.pm/items/7852224)
+- [Gumroad](https://810ppp.gumroad.com/l/seiton)
