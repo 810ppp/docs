@@ -18,6 +18,10 @@
       "destination": "/seiton"
     },
     {
+      "source": "/en",
+      "destination": "/en/seiton"
+    },
+    {
       "source": "/getting-started/:slug*",
       "destination": "/seiton/getting-started/:slug*"
     },
@@ -35,55 +39,118 @@
     }
   ],
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Seiton",
-        "groups": [
+        "language": "jp",
+        "default": true,
+        "tabs": [
           {
-            "group": "Overview",
-            "pages": [
-              "seiton/index"
+            "tab": "Seiton",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "seiton/index"
+                ]
+              },
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "seiton/getting-started/installation",
+                  "seiton/getting-started/usage"
+                ]
+              },
+              {
+                "group": "Reference",
+                "pages": [
+                  "seiton/reference/filter-priority",
+                  "seiton/reference/presets",
+                  "seiton/reference/settings"
+                ]
+              },
+              {
+                "group": "Support",
+                "pages": [
+                  "seiton/support/requirements",
+                  "seiton/support/faq",
+                  "seiton/support/help",
+                  "seiton/support/disclaimer"
+                ]
+              },
+              {
+                "group": "Changelog",
+                "pages": [
+                  "seiton/changelog"
+                ]
+              }
             ]
           },
           {
-            "group": "Getting Started",
-            "pages": [
-              "seiton/getting-started/installation",
-              "seiton/getting-started/usage"
-            ]
-          },
-          {
-            "group": "Reference",
-            "pages": [
-              "seiton/reference/filter-priority",
-              "seiton/reference/presets",
-              "seiton/reference/settings"
-            ]
-          },
-          {
-            "group": "Support",
-            "pages": [
-              "seiton/support/requirements",
-              "seiton/support/faq",
-              "seiton/support/help",
-              "seiton/support/disclaimer"
-            ]
-          },
-          {
-            "group": "Changelog",
-            "pages": [
-              "seiton/changelog"
+            "tab": "Halucent",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "halucent/index"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Halucent",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Overview",
-            "pages": [
-              "halucent/index"
+            "tab": "Seiton",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "en/seiton/index"
+                ]
+              },
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "en/seiton/getting-started/installation",
+                  "en/seiton/getting-started/usage"
+                ]
+              },
+              {
+                "group": "Reference",
+                "pages": [
+                  "en/seiton/reference/filter-priority",
+                  "en/seiton/reference/presets",
+                  "en/seiton/reference/settings"
+                ]
+              },
+              {
+                "group": "Support",
+                "pages": [
+                  "en/seiton/support/requirements",
+                  "en/seiton/support/faq",
+                  "en/seiton/support/help",
+                  "en/seiton/support/disclaimer"
+                ]
+              },
+              {
+                "group": "Changelog",
+                "pages": [
+                  "en/seiton/changelog"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Halucent",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "en/halucent/index"
+                ]
+              }
             ]
           }
         ]

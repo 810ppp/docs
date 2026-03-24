@@ -1,0 +1,111 @@
+---
+title: Usage
+description: Core Seiton workflow: folder structure, filters, labels, and execution.
+---
+
+Seiton follows a simple workflow: create folders, configure filters and labels, then run the organizer.
+
+## 1. Create a folder structure
+
+<Steps>
+  <Step title="Add a folder">
+    Click `+ Add Folder` at the bottom-left of the panel.
+  </Step>
+  <Step title="Rename folders">
+    Click a folder name to edit it.
+  </Step>
+  <Step title="Add subfolders">
+    Use the `+` button to create child folders.
+  </Step>
+  <Step title="Reorder">
+    Drag and drop folders to change order or hierarchy.
+  </Step>
+</Steps>
+
+<Tip>
+  The project panel is name-sorted by default. If you want a custom folder order, use prefixes like `00_`, `01_`, and `02_`.
+</Tip>
+
+## 2. Configure filters
+
+Click the blue chip on each folder to set filters. For matching precedence, see [Filter Priority](/en/seiton/reference/filter-priority).
+
+| Filter | Description | Ae | Pr |
+|---|---|:--:|:--:|
+| Filter compositions by name | Compositions containing the specified string | ✅ | ❌ |
+| Include compositions | Any composition | ✅ | ❌ |
+| Include pre-compositions | Nested compositions used in other compositions | ✅ | ❌ |
+| Filter sequences by name | Sequences containing the specified string | ❌ | ✅ |
+| Include sequences | Any sequence | ❌ | ✅ |
+| Include nested sequences | Nested sequences | ❌ | ✅ |
+| Include subsequences | Subsequences | ❌ | ✅ |
+| Multicam sequences | Multicam | ❌ | ✅ |
+| Merged clips | Merged clips | ❌ | ✅ |
+| Filter assets by name | Assets containing the specified string | ✅ | ✅ |
+| Audio | Audio files | ✅ | ✅ |
+| Video | Video files | ✅ | ✅ |
+| Images | Static images | ✅ | ✅ |
+| Image sequences | Recognized image sequences | ✅ | ❌ |
+| Missing files | Offline or unlinked assets | ✅ | ✅ |
+| Captions / subtitles | Captions and subtitles | ❌ | ✅ |
+| Proxies | Proxy media | ❌ | ✅ |
+| Adjustment layers | Adjustment layers | ❌ | ✅ |
+| Black video | Black video | ❌ | ✅ |
+| Color matte | Color matte | ❌ | ✅ |
+| Bars & tone | Bars & tone | ❌ | ✅ |
+| Transparent video | Transparent video | ❌ | ✅ |
+| Counting leaders | Counting leaders | ❌ | ✅ |
+| MOGRTs | Motion Graphics templates | ❌ | ✅ |
+| By extension | Specific extensions like `.psd, .ai` | ✅ | ✅ |
+
+## 3. Set labels
+
+Click the icon to the left of a folder name to choose its label color. The label is applied automatically when items are organized.
+
+## 4. Run the organizer
+
+Click `Run` to organize the full project.
+
+### After Effects: organize selected comps
+
+<Steps>
+  <Step title="Select compositions">
+    Select one or more compositions in the project panel.
+  </Step>
+  <Step title="Run">
+    Click `Run`.
+  </Step>
+  <Step title="Done">
+    Seiton creates a dedicated master folder for each selected composition and organizes related assets inside it.
+  </Step>
+</Steps>
+
+### Premiere Pro: organize selected sequences
+
+<Steps>
+  <Step title="Run with Ctrl">
+    Hold `Ctrl` while clicking `Run`.
+  </Step>
+  <Step title="Choose sequences">
+    Select the sequences you want to organize from the dialog.
+  </Step>
+  <Step title="Done">
+    Seiton organizes only the selected sequences.
+  </Step>
+</Steps>
+
+<Info>
+  **Undo**
+  - After Effects: one Undo returns the project to the previous state.
+  - Premiere Pro: multiple Undo operations may be required because of API limitations.
+</Info>
+
+## Related pages
+
+- [Preset Management](/en/seiton/reference/presets)
+- [Settings](/en/seiton/reference/settings)
+- [FAQ](/en/seiton/support/faq)
+## Purchase
+
+- [BOOTH](https://810ppp.booth.pm/items/7852224)
+- [Gumroad](https://810ppp.gumroad.com/l/seiton)
