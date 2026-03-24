@@ -12,6 +12,28 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/seiton"
+    },
+    {
+      "source": "/getting-started/:slug*",
+      "destination": "/seiton/getting-started/:slug*"
+    },
+    {
+      "source": "/reference/:slug*",
+      "destination": "/seiton/reference/:slug*"
+    },
+    {
+      "source": "/support/:slug*",
+      "destination": "/seiton/support/:slug*"
+    },
+    {
+      "source": "/changelog",
+      "destination": "/seiton/changelog"
+    }
+  ],
   "navigation": {
     "tabs": [
       {
